@@ -5,8 +5,7 @@ library(ggplot2)
 library(tidyverse)
 library(readxl)
 
-setwd("C:/Users/musik/Downloads/Berry Postdoc/SciofSci")
-prop1_age <- read_excel("prop1_age.xlsx")
+prop1_age <- read_excel("https://github.com/mhudsonvassell/SciofSci/blob/main/prop1_age.xlsx")
 
 
 ui <- fluidPage(
